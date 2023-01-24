@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MatLegacyCardModule as MatCardModule } from '@angular/material/legacy-card';
+import {MatCardModule} from '@angular/material/card';
 
 @Component({
   selector: 'app-user',
@@ -8,11 +8,14 @@ import { MatLegacyCardModule as MatCardModule } from '@angular/material/legacy-c
   standalone:true,
   imports:[MatCardModule ]
 })
-export class UserComponent implements OnInit {
+export default class UserComponent implements OnInit {
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
+
 }
+
+
