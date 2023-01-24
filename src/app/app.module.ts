@@ -5,9 +5,12 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 
 
 import { AppComponent } from './app.component';
+import { AdminComponent } from './admin/admin.component';
 
 @NgModule({
   declarations: [
+
+
 
   ],
   imports: [
@@ -17,6 +20,6 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: []
 })
 export class AppModule { }
